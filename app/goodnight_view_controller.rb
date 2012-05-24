@@ -5,7 +5,7 @@ class GoodnightViewController < UIViewController
     self.view.backgroundColor = UIColor.orangeColor
     @button = UIButton.buttonWithType(UIButtonTypeRoundedRect)
     @button.setTitle('goodnight', forState: UIControlStateNormal)
-    @button.frame = CGRectMake(10, 0, 200, 40)
+    @button.frame = CGRectMake(60, 100, 200, 40) 
     self.view.addSubview @button
   end
 
