@@ -3,7 +3,7 @@ class HelloViewController < UIViewController
     if super
       self.tabBarItem = UITabBarItem.alloc.initWithTabBarSystemItem(UITabBarSystemItemSearch, tag: 0)
     end
-    super
+    self
   end
 
   def loadView

@@ -3,7 +3,7 @@ class GoodbyeViewController < UIViewController
     if super
       self.tabBarItem = UITabBarItem.alloc.initWithTabBarSystemItem(UITabBarSystemItemBookmarks, tag: 1)
     end
-    super
+    self
   end
 
   def loadView
